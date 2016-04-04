@@ -1,0 +1,3 @@
+[submodule "twsparql"]
+	path = twsparql
+	url = https://github.com/tetherless-world/twsparql-html.git

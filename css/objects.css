@@ -1,0 +1,71 @@
+object {
+       overflow: visible;
+       min-width: 800px;
+       min-height: 20px;
+       max-height: 800px;
+}
+
+.twqueryresult tbody
+{ 
+  border: 0px solid #ffffff;
+ }
+
+#themes table tr td img {
+  width: 128px;
+}
+
+#themes table tr td span {
+  font-size: 10pt;
+}
+
+#themes table tr td.theme_desc {
+  max-width: 100%;
+}
+
+#themes table tr td .theme_title {
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section .header
+{ 
+  border-top: 1px solid #e1e4ef;
+  padding-top: 12px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  width: 100%;
+ }
+
+.section .header span
+{ 
+  float: right;
+  visibility: hidden;
+  font-weight: normal;
+  font-size: 9pt;
+  width: 120px;
+ }
+
+.section .header:hover span
+{ 
+  visibility: visible;
+ }
+
+.section .header span a img
+ { 
+   border: 0;
+ }
+
+.thumb {
+    max-width: 150px;
+    margin: 16px;
+    margin-top: 0px;
+}
+
+.thumb.sponsor {
+    max-width: 100px;
+}
+
+b.label {
+  margin-right: 0.5em;
+}
