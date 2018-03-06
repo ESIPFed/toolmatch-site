@@ -175,7 +175,7 @@ function gcmd_curl($gcmd) {
 }
 
 function doi_curl($doi) {
-	$url = 'http://dx.doi.org/' . $doi;
+	$url = 'https://doi.org/' . $doi;
 
 	$curl = curl_init();
 	curl_setopt($curl, CURLOPT_URL, $url);
